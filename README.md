@@ -19,7 +19,7 @@ in the file selection field, after confirmation the file with the extension <b>.
 will be created and selected as a file to save data).  
 If file-to-save not selected at the time of exiting the program, the app will warn you 
 and allow you to select or create this file. If you successfully select/create a file-to-save, 
-the program will read data from this file the next time it starts.
+the program will read data from this file the next time it starts.  
 To launch the application run the <i><b>c4r-test-swing-datatable.jar</b></i> file.
 
 <b>Technologies:</b>
