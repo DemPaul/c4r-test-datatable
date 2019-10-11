@@ -11,15 +11,15 @@ JUnit tests added to test the validity of field validator methods.
 
 <b>Performance description:</b>  
 Clicking the "Add to table" button reads the data from the fields, validate them, 
-and if validation complete successful adds them to the table.  
-The "Select file to save data" button is optional, it allows you to select or create a file 
-in which the data will be saved, at the end of the program 
+and if validation completeed successfully, adds them to the table.  
+The "Select file to save data" button is optional, it allows you to select or create a file, 
+in which the data will be saved at the end of the program 
 (to create a file in FileChooser you need to select a directory and write the name of a new file 
 in the file selection field, after confirmation the file with the extension <b>.txt</b> 
 will be created and selected as a file to save data).  
-If save file still not selected at the time of exiting the program the app will warn you 
-and allow you to select or create a file. If you successfully select/create a file, 
-the data will be read from that file again when you restart the program.  
+If file-to-save not selected at the time of exiting the program, the app will warn you 
+and allow you to select or create this file. If you successfully select/create a file-to-save, 
+the program will read data from this file the next time it starts.
 To launch the application run the <i><b>c4r-test-swing-datatable.jar</b></i> file.
 
 <b>Technologies:</b>
